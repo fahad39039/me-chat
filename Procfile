@@ -1,1 +1,1 @@
-web: daphne mechat.asgi:application
+web: daphne chat.asgi:application
