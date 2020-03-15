@@ -1,1 +1,1 @@
-web: gunicorn mechat.wsgi
+web: gunicorn chat.wsgi
