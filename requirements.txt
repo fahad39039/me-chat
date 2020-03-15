@@ -21,7 +21,7 @@ pyasn1-modules==0.2.8
 pycparser==2.20
 PyHamcrest==2.0.2
 pyOpenSSL==19.1.0
-pypiwin32==219
+pypiwin32==223
 pytz==2019.3
 pywin32==223
 service-identity==18.1.0
