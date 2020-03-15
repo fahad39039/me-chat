@@ -1,1 +1,1 @@
-web: daphne chat.asgi:application
+web: python manage.py runserver
