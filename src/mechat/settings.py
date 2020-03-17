@@ -13,7 +13,7 @@ SECRET_KEY = '_hs3yq0y2%)dvjsk^g&004tl+wi5^&_i0!zos5zeu90$%4b9g('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mechatportal.herokuapp.com']
 
 
 # Application definition
