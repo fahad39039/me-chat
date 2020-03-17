@@ -1,1 +1,2 @@
-web: gunicorn mechat.wsgi --log-file -
+web: daphne mechat.asgi:channel_layer --port $PORT --bind 0.0.0.0 -v2
+chatworker: python manage.py runworker --settings=chat.settings -v2
