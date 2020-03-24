@@ -64,7 +64,7 @@ CHANNEL_LAYERS = {
     'default': {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
-            "hosts": [('127.0.0.1', 6379)],
+            "hosts":["redis://h:Uwq3TQFp0zSFhg9xtHxRqxMPt2XxnEom@redis-13418.c12.us-east-1-4.ec2.cloud.redislabs.com:13418"]
         },
     },
 }
