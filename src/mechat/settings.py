@@ -11,7 +11,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '_hs3yq0y2%)dvjsk^g&004tl+wi5^&_i0!zos5zeu90$%4b9g('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['mechatportal.herokuapp.com']
 
